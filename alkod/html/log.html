@@ -1,0 +1,19 @@
+{$INCLUDE header1.html.inc}
+<meta http-equiv="refresh" content="30;">
+<!--
+SPDX-FileCopyrightText: 2024 Sirius Bakke <sirius@bakke.co>
+SPDX-License-Identifier: Apache-2.0
+-->
+{$INCLUDE header2.html.inc}
+{$INCLUDE nav.html.inc}
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"> Log <button type="button" class="btn btn-default navbar-btn"><a href="/log.html">Refresh</a></button></h3>
+                    </div>
+                    <div class="panel-body">
+                    {$PRINT_LOG}
+                    </div>
+                </div>
+
+{$INCLUDE footer.html.inc}

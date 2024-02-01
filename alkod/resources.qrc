@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>html/index.html</file>
+        <file>html/log.html</file>
+        <file>html/process.html</file>
+        <file>html/admin.html</file>
+        <file>html/rawlog.html</file>
+        <file>html/logout.html</file>
+        <file>html/400.html</file>
+        <file>html/404.html</file>
+        <file>html/footer.html.inc</file>
+        <file>html/nav.html.inc</file>
+        <file>html/header1.html.inc</file>
+        <file>html/header2.html.inc</file>
+        <file>html/status.html</file>
+        <file>html/check_status.html</file>
+    </qresource>
+</RCC>

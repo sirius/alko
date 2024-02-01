@@ -1,0 +1,19 @@
+{$INCLUDE header1.html.inc}
+<!--
+SPDX-FileCopyrightText: 2024 Sirius Bakke <sirius@bakke.co>
+SPDX-License-Identifier: Apache-2.0
+-->
+<meta http-equiv="refresh" content="30;">
+{$INCLUDE header2.html.inc}
+{$INCLUDE nav.html.inc}
+
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"> Raw log </h3>
+                    </div>
+                    <div class="panel-body">
+                    {$PRINT_RAW_LOG}
+                    </div>
+                </div>
+
+{$INCLUDE footer.html.inc}
